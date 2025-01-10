@@ -44,4 +44,12 @@ begin
     rw mul_zero at hinv_x,
     exact hinv_x,
     },
+
+
+
+
+
+
+
+    
 end

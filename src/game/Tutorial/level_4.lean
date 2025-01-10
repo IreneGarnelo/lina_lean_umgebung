@@ -19,4 +19,7 @@ Sei $x \in \mathbb{N}$. Dann ist $x \cdot 1=x$.
 theorem rw_mul_one (x : nat) : x*1=x :=
 begin
 rw mul_one,
+
+
+
 end

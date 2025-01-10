@@ -19,4 +19,9 @@ begin
   cases prod_null_faktor_null x x h with hx hx,
   {exact hx,},
   {exact hx,},
+
+
+
+
+  
 end

@@ -24,4 +24,7 @@ Sei $x \in \mathbb{N}$ und $x=2$. Dann ist $x \cdot 2=2 \cdot 2$.
 theorem beispiel_rw (x : nat) (h : x = 2) : x*2 = 2*2 :=
 begin
 rw h,
+
+
+
 end

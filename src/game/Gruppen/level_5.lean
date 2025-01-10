@@ -33,4 +33,9 @@ begin
   rw mul_inv_rev y⁻¹ x⁻¹ at h1,
   repeat {rw inv_inv at h1,},
   exact h1.symm,
+
+
+
+
+  
 end

@@ -14,4 +14,7 @@ theorem zwei_voraus_1 (x y : nat)(h1: x=2)(h2 : y=3) : x+1=y :=
 begin
 rw h1,
 rw h2,
+
+
+
 end

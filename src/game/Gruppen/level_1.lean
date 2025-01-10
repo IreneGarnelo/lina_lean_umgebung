@@ -30,4 +30,7 @@ begin
   have h2_e1 := h2 e1,
   rw ← h1_e2.left,
   rw h2_e1.right,
+
+
+  
 end

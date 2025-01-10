@@ -28,4 +28,9 @@ begin
   },
   rw ← hb.1,
   rw mul_assoc,
+
+
+
+
+  
 end

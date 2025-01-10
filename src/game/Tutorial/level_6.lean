@@ -18,4 +18,7 @@ theorem zwei_voraus_2 (x y : nat)(h: x=2 ∧ y=3) : x+1=y :=
 begin
 rw h.left,
 rw h.right,
+
+
+
 end

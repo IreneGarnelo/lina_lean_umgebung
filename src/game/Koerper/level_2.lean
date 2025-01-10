@@ -30,4 +30,9 @@ begin
   rw mul_inv_cancel hx at h_inv,
   repeat{ rw one_mul at h_inv, },
   exact h_inv,
+
+
+
+
+  
 end

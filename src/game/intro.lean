@@ -33,6 +33,8 @@ kannst du beim nächsten Mal hochladen, indem du den 📝 Button klickst.
 
 Viel Spaß beim Coden!
 
+Zusätzliches Material kannst du <a href="https://git.uni-paderborn.de/ireneg/lineare-algebra-in-lean" target="blank">hier</a> finden.
+
 ## Du bist mit dem Tool fertig - was nun?
 
 Wir haben ein weiteres Spiel zu den natürlichen Zahlen entwickelt. Du kannst es 
