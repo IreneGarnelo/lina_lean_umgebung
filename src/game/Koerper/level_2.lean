@@ -18,7 +18,9 @@ intro h,
 Statt `mul_left_inv` heißt es in Körpern aber `mul_inv_cancel`.
 -/
 
--- Theorem: Die Multiplikation in Körpern ist eindeutig.
+/- Theorem
+Die Multiplikation in Körpern ist eindeutig.
+-/
 theorem eind_prod {F : Type} [field F] (x y z : F) (hx : x ≠ 0) :
   x * y = x * z → y = z :=
 begin

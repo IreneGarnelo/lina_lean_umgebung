@@ -1,15 +1,16 @@
 -- Level name : Falls $y^{-1} \cdot x^{-1} \cdot y \cdot x = 1$, dann ist $G$ abelsch
 
-import algebra.group.basic
+import algebra.group.basic --hide
 import game.Gruppen.level_5 --hide
 
-/- Zuletzt möchten wir für Gruppen zeigen, dass falls $y^{-1} \cdot x^{-1} \cdot y \cdot x = 1$ für
+/-
+Zuletzt möchten wir für Gruppen zeigen, dass falls $y^{-1} \cdot x^{-1} \cdot y \cdot x = 1$ für
 alle $x,y \in G$ gilt, die Gruppe abelsch ist. Gehe dazu wiefolgt vor:
 Zeige zunächst, dass die Voraussetzungen des Lemmas in Level 5 erfüllt sind. Führe dazu
 ein Zwischenziel ein (für diesen Teil kannst du `eq_inv_of_mul_eq_one` und `mul_inv_rev` verwenden).
 Dann kannst du mit `apply inv_abelsch,` das Resultat aus Level 5 anwenden. Wie kannst du nun den Beweis 
 schließen?
- -/
+-/
 
 /- Hint : Brauchst du Hilfe, das Zwischenergebnis zu beweisen?
 Du kannst folgende Beweisstuktur verwenden und die sorry durch Beweisschritte austauschen:
@@ -25,7 +26,9 @@ sorry,},
 ```
 -/
 
--- Theorem: Falls $y^{-1} \cdot x^{-1} \cdot y \cdot x$ für alle $x, y \in G$, dann ist $G$ abelsch.
+/- Theorem
+Falls $y^{-1} \cdot x^{-1} \cdot y \cdot x$ für alle $x, y \in G$, dann ist $G$ abelsch.
+-/
 theorem inv_inv_abelsch {G : Type} [group G]
   (h : ∀ x y : G, y⁻¹ * x⁻¹ * y * x = 1) :
   ∀ x y : G, x * y = y * x :=

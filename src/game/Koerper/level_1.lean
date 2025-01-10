@@ -17,7 +17,9 @@ Nach dem `rintro` Befehl brauchst du nur noch `rw` schritte mit den Aussagen im 
 `mul_one`, `mul_assoc`, `mul_comm` und `one_mul`.
 -/
 
--- Theorem: Das Inverse in Körpern ist eindeutig.
+/- Theorem
+Das Inverse in Körpern ist eindeutig.
+-/
 theorem eind_inv {F : Type} [field F] (x y z : F) (hx : x ≠ 0) :
   x * y = 1 ∧ x * z = 1 → y = z :=
 begin

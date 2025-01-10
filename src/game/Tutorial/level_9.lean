@@ -19,6 +19,7 @@ vor dem Produkt stehen, zu zeigen. Dazu schreiben wir:
 ```
  have h : (a + b) * c = a * c + b * c,
   { 
+  sorry,
   },
 ```
 zwischen den Klammern kommt dann der Beweis für die Aussage `h`, die dann im

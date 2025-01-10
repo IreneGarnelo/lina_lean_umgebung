@@ -15,7 +15,9 @@ dabei jeweils wie du jede Eins ersetzt so, dass du zum Schluss das Beweisziel du
 anwenden von Assoziativität (`mul_assoc`) lösen kannst.
 -/
 
--- Theorem: Das Inverse eines Elements ist Eindeutig.
+/- Theorem
+Das Inverse eines Elements ist Eindeutig.
+-/
 theorem eind_inv {G : Type} [group G] (a b c : G)
   (hb : b * a = 1 ∧ a * b = 1) (hc : c * a = 1 ∧ a * c = 1) :
   b = c :=

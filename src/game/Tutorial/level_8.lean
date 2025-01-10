@@ -14,7 +14,7 @@ h1: x = 2
 h2: y = x + 1
 ⊢ y = 3
 ```
-Um `h1`in `h2` einzusetzen können wir `rw h1 at h2,` schreiben. Das Beweisziel wird
+Um `h1` in `h2` einzusetzen, können wir `rw h1 at h2,` schreiben. Das Beweisziel wird
 dadurch nicht geändert, aber `h2` wird zu `h2 : y = 2 + 1`. Probiere es in der Aufgabe aus.
 -/
 

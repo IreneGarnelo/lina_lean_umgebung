@@ -4,7 +4,7 @@ import data.nat.basic -- hide
 
 /-
 Wir haben die exakte Aufgabe wie zuvor, möchten aber nun sehen, dass wir den
-beiden Aussagen, die mit einem und-Operator" verbunden wurden, Namen geben können
+beiden Aussagen, die mit einem und-Operator verbunden wurden, Namen geben können
 um diese wieder einzeln verweden zu können. Das lohnt sich insbesondere wenn man
 in einem Beweis die Teilaussagen öfter braucht. Dazu verwendet man `have` wiefolgt: <br>
 `have h1 := h.left`. Statt `h1` kann man einen beliebigen Namen wählen.

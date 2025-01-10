@@ -23,7 +23,9 @@ sorry,},
 ```
 -/
 
--- Theorem: Für $x, y \in F$ gilt: falls $x \cdot y = 0$ dann ist $x=0$ oder $y=0$.
+/- Theorem
+Für $x, y \in F$ gilt: falls $x \cdot y = 0$ dann ist $x=0$ oder $y=0$.
+-/
 theorem prod_null_faktor_null {F : Type} [field F] (x y : F) : x * y = 0 → x = 0 ∨ y = 0 :=
 begin
   intro h,

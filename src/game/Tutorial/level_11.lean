@@ -20,9 +20,9 @@ bis auf simple arithmetische Operationen das gleiche steht kannst du mit
 -/
 
 /- Theorem
-Seien $x$ und $y \in \mathbb{N}$, dann folgt aus $x=2 /cdot y$, dass $2 /cdot x = 4 /cdot y$.
+Seien $x$ und $y \in \mathbb{N}$, dann folgt aus $x=2 \cdot y$, dass $2 \cdot x = 4 \cdot y$.
 -/
-example (x y : nat) : x = 2*y → 2*x = 4*y :=
+theorem folg_ziel (x y : nat) : x = 2*y → 2*x = 4*y :=
 begin
   intro h,
   rw h,

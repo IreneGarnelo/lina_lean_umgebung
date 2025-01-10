@@ -6,7 +6,9 @@ import algebra.field.basic-- hide
 zu arbeiten. Suche dir dazu aus der linken Spalte die richtigen Sätze aus.
 -/
 
--- Theorem: Für $x, y \in F$ mit $y \neq 0$ gilt: $\frac{x \cdot y}{y} = x$.
+/- Theorem
+Für $x, y \in F$ mit $y \neq 0$ gilt: $\frac{x \cdot y}{y} = x$.
+-/
 theorem kuerzen_brueche {F : Type} [field F] (x y : F) (hy : y ≠ 0) : x * y / y = x :=
 begin
   rw div_eq_mul_inv,

@@ -9,7 +9,7 @@ in Beweisen verwendet werden. In der linken Spalte findest du unter "Theorem sta
 einiger solche Sätze, die für diese Lernumgebung nützlich sein könnten.
 
 Einer dieser Sätze ist `mul_one` und sagt aus, dass für eine natürliche Zahl
-$x$ gilt, dass `x*1=` ist. Wenn man also in einem Beweiszustand `x*1` hat, kann
+`x` gilt, dass `x*1=x` ist. Wenn man also in einem Beweiszustand `x*1` hat, kann
 man das mit `rw mul_one,` vereinfachen. Probiere es in dieser Aufgabe aus.
 -/
 

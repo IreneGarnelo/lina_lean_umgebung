@@ -6,10 +6,10 @@ import algebra.group.basic -- hide
 In deisem Level werden wir zeigen, das wenn jedes Element einer Gruppe $G$ selbstinvers ist,
 $G$ abelsch ist.
 
-Beginne mit `intros h,` um das Beweisziel von der allgemeinen Abelheit der Gruppe auf die
-Aussage $a /cdot b = b /cdot a$ zu bringen.
+Beginne mit `intros a b,` um das Beweisziel von der allgemeinen Abelheit der Gruppe auf die
+Aussage $a \cdot b = b \cdot a$ zu bringen.
 
-Das die Verknüpfung zweier Elemente $a /cdot b$ auch wieder ein Element der Gruppe ist,
+Das die Verknüpfung zweier Elemente $a \cdot b$ auch wieder ein Element der Gruppe ist,
 gilt auch für dieses, dass es selbstinvers ist. Führe die Aussage `h1 : (a * b)⁻¹ = a * b`
 ein und Beweise sie. (Falls du nachschlagen möchtest, wie du mit Zwischenzielen
 umgehst, schaue in Level 9 des Tutorials rein).
@@ -23,7 +23,9 @@ Nun kannst du h1 in h2 einsetzen. Ersetze zulezt in `h2`: `a⁻¹` durch `a` und
 indem du `h` anwendest.
 -/
 
--- Theorem: Falls $g /cdot g = 1$ für alle $g \in G$, dann ist $G$ abelsch.
+/- Theorem
+Falls $g \cdot g = 1$ für alle $g \in G$, dann ist $G$ abelsch.
+-/
 theorem selbstinv_abelsch {G : Type} [group G]
   (h : ∀ a : G, a⁻¹ = a) :
   ∀ a b : G, a * b = b * a :=

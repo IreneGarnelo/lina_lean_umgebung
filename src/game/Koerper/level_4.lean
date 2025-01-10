@@ -11,7 +11,9 @@ Fälle gibt musst du ihn wiefolgt anwenden: `cases prod_null_faktor_null x x h w
 Verwende dazu `pow_two` und das Quadrat in eine Multiplikation umzuwandeln.
 -/
 
--- Theorem: Für $x \in F$ gilt: falls $x^2 = 0$ dann ist $x=0$.
+/- Theorem
+Für $x \in F$ gilt: falls $x^2 = 0$ dann ist $x=0$.
+-/
 theorem quad_null_x_0 {F : Type} [field F] (x : F) : x^2 = 0 → x = 0 :=
 begin
   intro h,
